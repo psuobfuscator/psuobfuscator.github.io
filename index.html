@@ -17,7 +17,7 @@
   <script src="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.js"></script>
 <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.css" />
   <link rel="stylesheet" href="style.css" />
-	<link rel="stylesheet" href="gif23.css" />
+<link rel="stylesheet" href="style2.css" />
 </head>
 
 <style>
@@ -36,6 +36,10 @@ body {
     <h3>Login to your account</h3>
     <input type="email" placeholder="Email" id="email_field" />
     <input type="password" placeholder="Password" id="password_field" />
+<label class="container">Remember Me
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
     <button onclick="login()">Login</button>
     <button onclick="signup()">Create a Account</button>
   </div>
@@ -43,7 +47,11 @@ body {
   <div id="login_div1" class="main-div">
     <h3>Create a account! Its free</h3>
     <input type="email" placeholder="Email" id="email_field1" />
-    <input type="password" placeholder="Your Password" id="password_field1" />
+    <input type="password" placeholder="Password" id="password_field1" />
+    <label class="container">I Agree Terms Of Service
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
     <button onclick="signUp()">Create Account</button>
     <button onclick="back()">Back to Login Page</button>
   </div>
