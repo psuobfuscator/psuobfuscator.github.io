@@ -1,0 +1,22 @@
+{
+    "name": "discadia",
+    "short_name": "discadia",
+    "start_url": "/",
+    "description": "Discadia is a public Discord server listing site. Advertise your community or join a new one!",
+    "icons": [
+        {
+            "src": "https://static.discadia.com/favicons/android-chrome-192x192.png?v=ngkv9R0dj9",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "https://static.discadia.com/favicons/android-chrome-512x512.png?v=ngkv9R0dj9",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#7289da",
+    "background_color": "#7289da",
+    "display": "standalone"
+}
