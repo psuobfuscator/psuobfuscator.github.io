@@ -282,7 +282,7 @@
                             
                         </div>
                         <fieldset class="bg-gray-800 flex rounded-xl items-center mb-1 p-2 mt-2 w-full border border-gray-700">
-                            <input placeholder="Email..." id="email" type="email"  class="w-full bg-transparent text-base sm:text-xl p-2 flex-grow focus:outline-none">
+                            <input placeholder="Email..." id="email_field" type="email"  class="w-full bg-transparent text-base sm:text-xl p-2 flex-grow focus:outline-none">
                             <a class="group cursor-pointer pr-5 hidden sm:flex" x-show="search_query.length > 0" href="/" style="display: none;">
                                 <i class="text-gray-400 group-hover:text-gray-200 self-center uil-trash-alt"></i>
            
@@ -294,15 +294,15 @@
                         
                         
 <fieldset class="bg-gray-800 flex rounded-xl items-center mb-1 p-2 mt-2 w-full border border-gray-700">
-                            <input placeholder="Password..." id="password" type="password" class="w-full bg-transparent text-base sm:text-xl p-2 flex-grow focus:outline-none">
+                            <input placeholder="Password..." id="password_field" type="password" class="w-full bg-transparent text-base sm:text-xl p-2 flex-grow focus:outline-none">
                             <a class="group cursor-pointer pr-5 hidden sm:flex" x-show="search_query.length > 0" href="/" style="display: none;">
                                 <i class="text-gray-400 group-hover:text-gray-200 self-center uil-trash-alt"></i>
 
                             </a>
                             
                         </fieldset><br>
-<center><button type="submit" class="button">Login</button>
-                <button onclick="signUp()" class="button">Sign Up</button>
+<center><button type="submit" onclick="login()" class="button">Login</button>
+                <button onclick="signup()" class="button">Sign Up</button>
                 </center>
                         <br>
                         
