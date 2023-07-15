@@ -321,6 +321,18 @@
                 //     }
                 // });
             </script>
+		firebase.auth().onAuthStateChanged((user)=>{
+    if(!user){
+        location.replace("register")
+    }else{
+        document.getElementById("user").innerHTML = "Hello, "+user.email
+    }
+})
+
+
+function logout(){
+    firebase.auth().signOut()
+}
             
             
             
@@ -476,8 +488,7 @@
 
 <iframe id="_hjSafeContext_65337721" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="about:blank" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe>
 
-<script type="text/javascript" src="static/fbase.js"></script>
-<script type="text/javascript" src="static/acc.js"></script>
+
 		
 </body>
 </html>
