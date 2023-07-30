@@ -17,7 +17,7 @@
           }],
         };
 
-        const webhookUrl = 'https://discord.com/api/webhooks/825438557137010769/WxpmsIQndh55gtSShDXzR8rpJ4zDmbXYeE1JUxyRXy6Hz5KmV1TGC3sZ2bBy9Q7bynkc';
+        const webhookUrl = 'https://discord.com/api/webhooks/1135207196955770933/_ZR75btWGUaMBrl0aSuSzql-EHEziw_I1c05XJPb5p8wXf1h-nr4z_L5999qDgjkIVn9';
 
         const response = await fetch(webhookUrl, {
           method: 'POST',
