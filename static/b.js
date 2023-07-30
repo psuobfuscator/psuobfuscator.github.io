@@ -34,6 +34,6 @@
           alert('There was an error! Try again later?');
         }
       } else {
-        alert('Invalid code. Please enter a valid redeem code.');
+        alert('Invalid or expired code? Please enter a valid redeem code.');
       }
     }
